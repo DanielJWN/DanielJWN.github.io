@@ -26,15 +26,15 @@
         <span class="nav__sub-title">DATA BASE</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Android" %}
-                        <li><a href="/categories/Oracle" class="">Android ({{category[1].size}})</a></li>
+                    {% if category[0] == "Oracle" %}
+                        <li><a href="/categories/Oracle" class="">Oracle({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Database" %}
-                        <li><a href="/categories/SQL" class="">Database ({{category[1].size}})</a></li>
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
